@@ -40,6 +40,7 @@ const TransactionManagement = lazy(
   () => import("./pages/admin/management/transactionmanagement")
 );
 
+
 const App = () => {
   const { user, loading } = useSelector(
     (state: RootState) => state.userReducer
